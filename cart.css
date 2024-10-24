@@ -1,0 +1,77 @@
+body {
+    background-color: #f7dcdc;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Page Title */
+h1 {
+    font-weight: 600;
+    color: #232f3e;
+}
+
+/* Product Cards */
+.product {
+    background-color: #92cc71;
+    border-radius: 5px;
+    transition: box-shadow 0.3s;
+}
+
+.product:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    max-height: 150px;
+    object-fit: contain;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+.btn-primary {
+    background-color: #ad2656;
+    border-color: #653190;
+}
+
+.btn-primary:hover {
+    background-color: #bad1e8;
+}
+
+/* Cart Section */
+#cart-items {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.cart-item:last-child {
+    border-bottom: none;
+}
+
+.remove-from-cart {
+    color: #c82333;
+    cursor: pointer;
+}
+
+.remove-from-cart:hover {
+    color: #a71d2a;
+}
+
+/* Total Price */
+#total-price {
+    font-size: 1.5rem;
+    color: #232f3e;
+}
